@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68148CF218731CCF00E1C690 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 68148CF118731CCF00E1C690 /* Card.m */; };
+		68148CF618731FDE00E1C690 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 68148CF518731FDE00E1C690 /* Deck.m */; };
+		68148CF9187324C500E1C690 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 68148CF8187324C500E1C690 /* PlayingCard.m */; };
 		6857C2BA1872962700D12402 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6857C2B91872962700D12402 /* Foundation.framework */; };
 		6857C2BC1872962700D12402 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6857C2BB1872962700D12402 /* CoreGraphics.framework */; };
 		6857C2BE1872962700D12402 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6857C2BD1872962700D12402 /* UIKit.framework */; };
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68148CF018731CCF00E1C690 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Models/Card.h; sourceTree = "<group>"; };
+		68148CF118731CCF00E1C690 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Models/Card.m; sourceTree = "<group>"; };
+		68148CF418731FDE00E1C690 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Models/Deck.h; sourceTree = "<group>"; };
+		68148CF518731FDE00E1C690 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Models/Deck.m; sourceTree = "<group>"; };
+		68148CF7187324C500E1C690 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Models/PlayingCard.h; sourceTree = "<group>"; };
+		68148CF8187324C500E1C690 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Models/PlayingCard.m; sourceTree = "<group>"; };
 		6857C2B61872962700D12402 /* MachoCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachoCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6857C2B91872962700D12402 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6857C2BB1872962700D12402 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +88,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68148CF318731CE300E1C690 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68148CF018731CCF00E1C690 /* Card.h */,
+				68148CF118731CCF00E1C690 /* Card.m */,
+				68148CF418731FDE00E1C690 /* Deck.h */,
+				68148CF518731FDE00E1C690 /* Deck.m */,
+				68148CF7187324C500E1C690 /* PlayingCard.h */,
+				68148CF8187324C500E1C690 /* PlayingCard.m */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		6857C2AD1872962700D12402 = {
 			isa = PBXGroup;
 			children = (
@@ -112,8 +135,7 @@
 		6857C2BF1872962700D12402 /* MachoCards */ = {
 			isa = PBXGroup;
 			children = (
-				6857C2C81872962700D12402 /* HMSAppDelegate.h */,
-				6857C2C91872962700D12402 /* HMSAppDelegate.m */,
+				68148CF318731CE300E1C690 /* Models */,
 				6857C2CB1872962700D12402 /* Main.storyboard */,
 				6857C2CE1872962700D12402 /* HMSViewController.h */,
 				6857C2CF1872962700D12402 /* HMSViewController.m */,
@@ -126,6 +148,8 @@
 		6857C2C01872962700D12402 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6857C2C81872962700D12402 /* HMSAppDelegate.h */,
+				6857C2C91872962700D12402 /* HMSAppDelegate.m */,
 				6857C2C11872962700D12402 /* MachoCards-Info.plist */,
 				6857C2C21872962700D12402 /* InfoPlist.strings */,
 				6857C2C51872962700D12402 /* main.m */,
@@ -250,9 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68148CF9187324C500E1C690 /* PlayingCard.m in Sources */,
+				68148CF618731FDE00E1C690 /* Deck.m in Sources */,
 				6857C2D01872962700D12402 /* HMSViewController.m in Sources */,
 				6857C2C61872962700D12402 /* main.m in Sources */,
 				6857C2CA1872962700D12402 /* HMSAppDelegate.m in Sources */,
+				68148CF218731CCF00E1C690 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +488,7 @@
 				6857C2EA1872962700D12402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6857C2EB1872962700D12402 /* Build configuration list for PBXNativeTarget "MachoCardsTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +497,7 @@
 				6857C2ED1872962700D12402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
