@@ -24,6 +24,7 @@
 		6857C2DB1872962700D12402 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6857C2BD1872962700D12402 /* UIKit.framework */; };
 		6857C2E31872962700D12402 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6857C2E11872962700D12402 /* InfoPlist.strings */; };
 		6857C2E51872962700D12402 /* MachoCardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6857C2E41872962700D12402 /* MachoCardsTests.m */; };
+		68997740187BC5F700ACE876 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 6899773F187BC5F700ACE876 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		6857C2E01872962700D12402 /* MachoCardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MachoCardsTests-Info.plist"; sourceTree = "<group>"; };
 		6857C2E21872962700D12402 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6857C2E41872962700D12402 /* MachoCardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MachoCardsTests.m; sourceTree = "<group>"; };
+		6899773E187BC5F700ACE876 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Models/PlayingCardDeck.h; sourceTree = "<group>"; };
+		6899773F187BC5F700ACE876 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Models/PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 				68148CF518731FDE00E1C690 /* Deck.m */,
 				68148CF7187324C500E1C690 /* PlayingCard.h */,
 				68148CF8187324C500E1C690 /* PlayingCard.m */,
+				6899773E187BC5F700ACE876 /* PlayingCardDeck.h */,
+				6899773F187BC5F700ACE876 /* PlayingCardDeck.m */,
 			);
 			name = Models;
 			path = ..;
@@ -278,6 +283,7 @@
 				68148CF618731FDE00E1C690 /* Deck.m in Sources */,
 				6857C2D01872962700D12402 /* HMSViewController.m in Sources */,
 				6857C2C61872962700D12402 /* main.m in Sources */,
+				68997740187BC5F700ACE876 /* PlayingCardDeck.m in Sources */,
 				6857C2CA1872962700D12402 /* HMSAppDelegate.m in Sources */,
 				68148CF218731CCF00E1C690 /* Card.m in Sources */,
 			);
